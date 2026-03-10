@@ -15,18 +15,23 @@ Browser DevTools (Network Tab): For cross-tool validation and real-world traffic
 🔍 Key Findings
 
 1. Excessive Data Exposure (GET)
+   
 Issue: API endpoints return overly verbose JSON responses.
+
 Risk: Potential leakage of internal system details to unauthorized users.
 
 
 2. Lack of Rate Limiting (POST)
+   
 Issue: The internal API does not enforce strict per-IP rate limits for POST requests.
+
 Risk: Susceptibility to automated "brute-force" or credential stuffing attempts.
 
 
 3. Security Header Misconfiguration
 
 Issue: Missing Strict-Transport-Security (HSTS) headers on the primary domain.
+
 Risk: Vulnerability to man-in-the-middle (MITM) and protocol downgrade attacks.
 
 🛡️ Remediation Plan
