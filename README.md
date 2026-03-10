@@ -26,8 +26,11 @@ Risk: Vulnerability to man-in-the-middle (MITM) and protocol downgrade attacks.
 
 🛡️ Remediation Plan
 Implement Data Filtering: Update the API to strip out all non-essential fields from JSON payloads before they are sent to the client.
+
 Enforce Application-Level Rate Limiting: Add a request "speed limit" (e.g., 10 requests per minute for sensitive endpoints) to block automated scripts.
+
 Enable HSTS & Security Headers: Configure the server to force HTTPS connections and prevent clickjacking by adding HSTS and X-Frame-Options to all responses.
+
 Sanitize Error Messages: Ensure the server returns simple, generic error messages instead of verbose HTML code pages.
 
 **[👉 View Full Assessment Report (PDF)](./FUTURE_CS_03.pdf)**
