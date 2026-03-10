@@ -7,6 +7,7 @@ This repository contains a professional security audit and vulnerability assessm
 
 🛠️ Tools Used
 Postman: For API request manipulation and header analysis.
+
 Browser DevTools (Network Tab): For cross-tool validation and real-world traffic monitoring.
 
 🔍 Key Findings
