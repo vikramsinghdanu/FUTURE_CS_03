@@ -30,6 +30,9 @@ Enforce Application-Level Rate Limiting: Add a request "speed limit" (e.g., 10 r
 Enable HSTS & Security Headers: Configure the server to force HTTPS connections and prevent clickjacking by adding HSTS and X-Frame-Options to all responses.
 Sanitize Error Messages: Ensure the server returns simple, generic error messages instead of verbose HTML code pages.
 
+📄 Full Assessment Report
+👉 View Full VAPT Report (PDF)
+
 
 🎓 Conclusion
 
